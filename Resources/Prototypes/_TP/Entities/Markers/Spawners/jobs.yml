@@ -1,10 +1,11 @@
 - type: entity
   id: TP14SpawnPointPilot
   parent: SpawnPointJobBase
+  suffix: Trieste, Spawner, Expeditionary, Pilot
   name: pilot
   components:
   - type: SpawnPoint
-    job_id: Pilot
+    job_id: TP14Pilot
   - type: Sprite
     layers:
     - state: green
@@ -13,10 +14,11 @@
 - type: entity
   id: TP14SpawnPointBasinTech
   parent: SpawnPointJobBase
+  suffix: Trieste, Spawner, Expeditionary, Basin Technician
   name: basin technician
   components:
   - type: SpawnPoint
-    job_id: BasinEngi
+    job_id: TP14BasinTech
   - type: Sprite
     layers:
     - state: green

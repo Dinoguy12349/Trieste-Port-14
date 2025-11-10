@@ -3,6 +3,9 @@
   parent: BaseComputer
   id: BaseComputerBell
   components:
+  - type: Construction
+    graph: ""
+    node: computer
   - type: Sprite
     layers:
     - map: [ "computerLayerBody" ]
@@ -49,7 +52,7 @@
   id: ComputerBell
   name: diving bell console
   description: Lets you control the diving bell.
-  suffix: indestructible
+  suffix: Trieste, Diving-Bell, Indestructible
   components:
   - type: BellConsole
     dockTag: DockBell
@@ -62,7 +65,7 @@
   id: ComputerTrench
   name: trench bell control console
   description: Operates the Trench exploration bell.
-  suffix: indestructible
+  suffix: Trieste, Trench-Bell, Indestructible
   components:
   - type: BellConsole
     dockTag: DockTrench
